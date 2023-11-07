@@ -1,0 +1,1902 @@
+2023-06-14 08:39:30 [Catalina-utility-2] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getRootConfigClasses 
+2023-06-14 08:39:30 [Catalina-utility-2] DEBUG c.x.d.configuration.WebInit -
+				No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-06-14 08:39:31 [Catalina-utility-2] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletConfigClasses
+2023-06-14 08:39:31 [Catalina-utility-2] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletMappings 
+2023-06-14 08:39:31 [Catalina-utility-2] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcher'
+2023-06-14 08:39:31 [Catalina-utility-2] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2023-06-14 08:39:31 [Catalina-utility-2] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Registering component classes: [class com.xworkz.donationapp.configuration.DonationConfiguration]
+2023-06-14 08:39:31 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-06-14 08:39:31 [Catalina-utility-2] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\BloodGroupController.class]
+2023-06-14 08:39:31 [Catalina-utility-2] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\DefaultController.class]
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@6b88101d]
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'donationConfiguration'
+2023-06-14 08:39:32 [Catalina-utility-2] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Strated============== DonationConfiguration
+2023-06-14 08:39:32 [Catalina-utility-2] INFO  c.x.d.c.DonationConfiguration -
+				Created DonationConfiguration$$EnhancerBySpringCGLIB$$62e3be2d
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'bloodGroupController'
+2023-06-14 08:39:32 [Catalina-utility-2] INFO  c.x.d.c.BloodGroupController -
+				Class Starting====:BloodGroupController====
+2023-06-14 08:39:32 [Catalina-utility-2] INFO  c.x.d.c.BloodGroupController -
+				createdBloodGroupController
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultController'
+2023-06-14 08:39:32 [Catalina-utility-2] INFO  c.x.d.controller.DefaultController -
+				CreatedDefaultController
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcConversionService'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				4 mappings in 'requestMappingHandlerMapping'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPatternParser'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPathMatcher'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:39:32 [Catalina-utility-2] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====starting============== configureDefaultServletHandling
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/] in 'viewControllerHandlerMapping'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'routerFunctionMapping'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'resourceHandlerMapping'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2023-06-14 08:39:32 [Catalina-utility-2] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Started============== configureDefaultServletHandling
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/**] in 'defaultServletHandlerMapping'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2023-06-14 08:39:32 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcValidator'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				ControllerAdvice beans: none
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerExceptionResolver'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				ControllerAdvice beans: none
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcViewResolver'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'localeResolver'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'themeResolver'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'flashMapManager'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewNameTranslator'
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'multipartResolver'
+2023-06-14 08:39:33 [Catalina-utility-2] INFO  c.x.d.c.DonationConfiguration -
+				 MultipartResolver created....
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected StandardServletMultipartResolver
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected AcceptHeaderLocaleResolver
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected FixedThemeResolver
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6ca5b1e2
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.support.SessionFlashMapManager@f7643b9
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.jndi.JndiLocatorDelegate -
+				Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.jndi.JndiPropertySource -
+				JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2023-06-14 08:39:33 [Catalina-utility-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-14 08:39:33 [Catalina-utility-2] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 2468 ms
+2023-06-14 08:39:34 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Wed Jun 14 08:39:31 IST 2023
+2023-06-14 08:39:40 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getRootConfigClasses 
+2023-06-14 08:39:40 [main] DEBUG c.x.d.configuration.WebInit -
+				No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-06-14 08:39:40 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletConfigClasses
+2023-06-14 08:39:40 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletMappings 
+2023-06-14 08:39:40 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcher'
+2023-06-14 08:39:40 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2023-06-14 08:39:41 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Registering component classes: [class com.xworkz.donationapp.configuration.DonationConfiguration]
+2023-06-14 08:39:41 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-06-14 08:39:41 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\BloodGroupController.class]
+2023-06-14 08:39:41 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\DefaultController.class]
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-06-14 08:39:42 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@2cff03cf]
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'donationConfiguration'
+2023-06-14 08:39:42 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Strated============== DonationConfiguration
+2023-06-14 08:39:42 [main] INFO  c.x.d.c.DonationConfiguration -
+				Created DonationConfiguration$$EnhancerBySpringCGLIB$$12436cb4
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'bloodGroupController'
+2023-06-14 08:39:42 [main] INFO  c.x.d.c.BloodGroupController -
+				Class Starting====:BloodGroupController====
+2023-06-14 08:39:42 [main] INFO  c.x.d.c.BloodGroupController -
+				createdBloodGroupController
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultController'
+2023-06-14 08:39:42 [main] INFO  c.x.d.controller.DefaultController -
+				CreatedDefaultController
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcConversionService'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:39:42 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				4 mappings in 'requestMappingHandlerMapping'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPatternParser'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPathMatcher'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:39:42 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====starting============== configureDefaultServletHandling
+2023-06-14 08:39:42 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/] in 'viewControllerHandlerMapping'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'routerFunctionMapping'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'resourceHandlerMapping'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2023-06-14 08:39:42 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Started============== configureDefaultServletHandling
+2023-06-14 08:39:42 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/**] in 'defaultServletHandlerMapping'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2023-06-14 08:39:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcValidator'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2023-06-14 08:39:43 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				ControllerAdvice beans: none
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerExceptionResolver'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:39:43 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				ControllerAdvice beans: none
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcViewResolver'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'localeResolver'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'themeResolver'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'flashMapManager'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewNameTranslator'
+2023-06-14 08:39:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'multipartResolver'
+2023-06-14 08:39:43 [main] INFO  c.x.d.c.DonationConfiguration -
+				 MultipartResolver created....
+2023-06-14 08:39:43 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected StandardServletMultipartResolver
+2023-06-14 08:39:43 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected AcceptHeaderLocaleResolver
+2023-06-14 08:39:43 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected FixedThemeResolver
+2023-06-14 08:39:43 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@15ce261
+2023-06-14 08:39:43 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.support.SessionFlashMapManager@54c3e686
+2023-06-14 08:39:43 [main] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2023-06-14 08:39:43 [main] DEBUG o.s.jndi.JndiLocatorDelegate -
+				Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2023-06-14 08:39:43 [main] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2023-06-14 08:39:43 [main] DEBUG o.s.jndi.JndiPropertySource -
+				JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2023-06-14 08:39:43 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-14 08:39:43 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 2999 ms
+2023-06-14 08:39:44 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				GET "/spring-donation-managment-system/", parameters={}
+2023-06-14 08:39:44 [http-nio-8082-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped to ParameterizableViewController [view="donation.jsp"]
+2023-06-14 08:39:44 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.view.JstlView -
+				View name 'donation.jsp', model {}
+2023-06-14 08:39:44 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.view.JstlView -
+				Forwarding to [donation.jsp]
+2023-06-14 08:39:44 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				Completed 200 OK
+2023-06-14 08:40:56 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet -
+				POST "/spring-donation-managment-system/donate", parameters={multipart}
+2023-06-14 08:40:56 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped to com.xworkz.donationapp.controller.BloodGroupController#onDonate(BloodGroupDonationDTO, BindingResult, Model, MultipartFile)
+2023-06-14 08:40:56 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				running on donateBloodGroupDonationDTO(personName=janani, group=A+, age=55, address=bashaym, weight=56.0, fileName=null, contentType=null, fileSize=0)
+2023-06-14 08:40:56 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				data is valid
+2023-06-14 08:40:56 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				file attached :KiranKammarResume (2).png
+2023-06-14 08:40:56 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				File recivefile
+2023-06-14 08:40:56 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				File size103563
+2023-06-14 08:40:56 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				File Typeimage/png
+2023-06-14 08:40:56 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				File byte[B@4a09918a
+2023-06-14 08:40:56 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				dto added to,with total1
+2023-06-14 08:40:56 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.view.JstlView -
+				View name '/donation.jsp', model {bloodGroupDonationDTO=BloodGroupDonationDTO(personName=janani, group=A+, age=55, address=bashaym, weight=56.0, fileName=1686712256936_KiranKammarResume (2).png, contentType=image/png, fileSize=103563), org.springframework.validation.BindingResult.bloodGroupDonationDTO=org.springframework.validation.BeanPropertyBindingResult: 0 errors, dtos=BloodGroupDonationDTO(personName=janani, group=A+, age=55, address=bashaym, weight=56.0, fileName=1686712256936_KiranKammarResume (2).png, contentType=image/png, fileSize=103563), successMsg=Blood Group ofjananisave successfully.., org.springframework.validation.BindingResult.dtos=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2023-06-14 08:40:56 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.view.JstlView -
+				Forwarding to [/donation.jsp]
+2023-06-14 08:40:56 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet -
+				Completed 200 OK
+2023-06-14 08:41:08 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.DispatcherServlet -
+				GET "/spring-donation-managment-system/filedownload?fileName=KiranKammarResume+%282%29.png&contentType=application%2Fpng", parameters={masked}
+2023-06-14 08:41:08 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped to com.xworkz.donationapp.controller.BloodGroupController#sendImage(String, String, HttpServletResponse)
+2023-06-14 08:41:08 [http-nio-8082-exec-8] INFO  c.x.d.c.BloodGroupController -
+				running sendImage....
+2023-06-14 08:41:08 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.DispatcherServlet -
+				Completed 200 OK
+2023-06-14 08:55:01 [Catalina-utility-2] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Wed Jun 14 08:39:40 IST 2023
+2023-06-14 08:55:04 [Catalina-utility-2] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getRootConfigClasses 
+2023-06-14 08:55:04 [Catalina-utility-2] DEBUG c.x.d.configuration.WebInit -
+				No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-06-14 08:55:04 [Catalina-utility-2] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletConfigClasses
+2023-06-14 08:55:04 [Catalina-utility-2] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletMappings 
+2023-06-14 08:55:04 [Catalina-utility-2] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcher'
+2023-06-14 08:55:04 [Catalina-utility-2] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2023-06-14 08:55:04 [Catalina-utility-2] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Registering component classes: [class com.xworkz.donationapp.configuration.DonationConfiguration]
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\BloodGroupController.class]
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\DefaultController.class]
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@1d18cd0b]
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'donationConfiguration'
+2023-06-14 08:55:05 [Catalina-utility-2] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Strated============== DonationConfiguration
+2023-06-14 08:55:05 [Catalina-utility-2] INFO  c.x.d.c.DonationConfiguration -
+				Created DonationConfiguration$$EnhancerBySpringCGLIB$$40d99f0c
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'bloodGroupController'
+2023-06-14 08:55:05 [Catalina-utility-2] INFO  c.x.d.c.BloodGroupController -
+				Class Starting====:BloodGroupController====
+2023-06-14 08:55:05 [Catalina-utility-2] INFO  c.x.d.c.BloodGroupController -
+				createdBloodGroupController
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultController'
+2023-06-14 08:55:05 [Catalina-utility-2] INFO  c.x.d.controller.DefaultController -
+				CreatedDefaultController
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcConversionService'
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:55:05 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				4 mappings in 'requestMappingHandlerMapping'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPatternParser'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPathMatcher'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:55:06 [Catalina-utility-2] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====starting============== configureDefaultServletHandling
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/] in 'viewControllerHandlerMapping'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'routerFunctionMapping'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'resourceHandlerMapping'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2023-06-14 08:55:06 [Catalina-utility-2] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Started============== configureDefaultServletHandling
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/**] in 'defaultServletHandlerMapping'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcValidator'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				ControllerAdvice beans: none
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerExceptionResolver'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				ControllerAdvice beans: none
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcViewResolver'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'localeResolver'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'themeResolver'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'flashMapManager'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewNameTranslator'
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'multipartResolver'
+2023-06-14 08:55:06 [Catalina-utility-2] INFO  c.x.d.c.DonationConfiguration -
+				 MultipartResolver created....
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected StandardServletMultipartResolver
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected AcceptHeaderLocaleResolver
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected FixedThemeResolver
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7c14c048
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.support.SessionFlashMapManager@3392327
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.jndi.JndiLocatorDelegate -
+				Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.jndi.JndiPropertySource -
+				JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2023-06-14 08:55:06 [Catalina-utility-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-14 08:55:06 [Catalina-utility-2] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 2325 ms
+2023-06-14 09:40:54 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Wed Jun 14 08:55:04 IST 2023
+2023-06-14 09:41:01 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getRootConfigClasses 
+2023-06-14 09:41:01 [main] DEBUG c.x.d.configuration.WebInit -
+				No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-06-14 09:41:01 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletConfigClasses
+2023-06-14 09:41:02 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletMappings 
+2023-06-14 09:41:02 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcher'
+2023-06-14 09:41:02 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2023-06-14 09:41:02 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Registering component classes: [class com.xworkz.donationapp.configuration.DonationConfiguration]
+2023-06-14 09:41:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-06-14 09:41:03 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\BloodGroupController.class]
+2023-06-14 09:41:03 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\DefaultController.class]
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-06-14 09:41:04 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@1f95158a]
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'donationConfiguration'
+2023-06-14 09:41:04 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Strated============== DonationConfiguration
+2023-06-14 09:41:04 [main] INFO  c.x.d.c.DonationConfiguration -
+				Created DonationConfiguration$$EnhancerBySpringCGLIB$$8e334a1f
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'bloodGroupController'
+2023-06-14 09:41:04 [main] INFO  c.x.d.c.BloodGroupController -
+				Class Starting====:BloodGroupController====
+2023-06-14 09:41:04 [main] INFO  c.x.d.c.BloodGroupController -
+				createdBloodGroupController
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultController'
+2023-06-14 09:41:04 [main] INFO  c.x.d.controller.DefaultController -
+				CreatedDefaultController
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcConversionService'
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 09:41:04 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				4 mappings in 'requestMappingHandlerMapping'
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPatternParser'
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2023-06-14 09:41:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPathMatcher'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 09:41:05 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====starting============== configureDefaultServletHandling
+2023-06-14 09:41:05 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/] in 'viewControllerHandlerMapping'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'routerFunctionMapping'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'resourceHandlerMapping'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2023-06-14 09:41:05 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Started============== configureDefaultServletHandling
+2023-06-14 09:41:05 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/**] in 'defaultServletHandlerMapping'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2023-06-14 09:41:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcValidator'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2023-06-14 09:41:06 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				ControllerAdvice beans: none
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerExceptionResolver'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 09:41:06 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				ControllerAdvice beans: none
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcViewResolver'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'localeResolver'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'themeResolver'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'flashMapManager'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewNameTranslator'
+2023-06-14 09:41:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'multipartResolver'
+2023-06-14 09:41:06 [main] INFO  c.x.d.c.DonationConfiguration -
+				 MultipartResolver created....
+2023-06-14 09:41:06 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected StandardServletMultipartResolver
+2023-06-14 09:41:06 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected AcceptHeaderLocaleResolver
+2023-06-14 09:41:06 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected FixedThemeResolver
+2023-06-14 09:41:06 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@126e2710
+2023-06-14 09:41:06 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.support.SessionFlashMapManager@1529d534
+2023-06-14 09:41:06 [main] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2023-06-14 09:41:06 [main] DEBUG o.s.jndi.JndiLocatorDelegate -
+				Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2023-06-14 09:41:06 [main] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2023-06-14 09:41:06 [main] DEBUG o.s.jndi.JndiPropertySource -
+				JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2023-06-14 09:41:06 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-14 09:41:06 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 4654 ms
+2023-06-14 09:42:37 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Wed Jun 14 09:41:02 IST 2023
+2023-06-14 09:42:43 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getRootConfigClasses 
+2023-06-14 09:42:43 [main] DEBUG c.x.d.configuration.WebInit -
+				No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-06-14 09:42:43 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletConfigClasses
+2023-06-14 09:42:43 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletMappings 
+2023-06-14 09:42:43 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcher'
+2023-06-14 09:42:43 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2023-06-14 09:42:43 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Registering component classes: [class com.xworkz.donationapp.configuration.DonationConfiguration]
+2023-06-14 09:42:44 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-06-14 09:42:44 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\BloodGroupController.class]
+2023-06-14 09:42:44 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\DefaultController.class]
+2023-06-14 09:42:44 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-06-14 09:42:44 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-06-14 09:42:44 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-06-14 09:42:44 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-06-14 09:42:44 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@1ea96ff2]
+2023-06-14 09:42:44 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'donationConfiguration'
+2023-06-14 09:42:44 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Strated============== DonationConfiguration
+2023-06-14 09:42:44 [main] INFO  c.x.d.c.DonationConfiguration -
+				Created DonationConfiguration$$EnhancerBySpringCGLIB$$91aa67b3
+2023-06-14 09:42:44 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'bloodGroupController'
+2023-06-14 09:42:45 [main] INFO  c.x.d.c.BloodGroupController -
+				Class Starting====:BloodGroupController====
+2023-06-14 09:42:45 [main] INFO  c.x.d.c.BloodGroupController -
+				createdBloodGroupController
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultController'
+2023-06-14 09:42:45 [main] INFO  c.x.d.controller.DefaultController -
+				CreatedDefaultController
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcConversionService'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 09:42:45 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				4 mappings in 'requestMappingHandlerMapping'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPatternParser'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPathMatcher'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 09:42:45 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====starting============== configureDefaultServletHandling
+2023-06-14 09:42:45 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/] in 'viewControllerHandlerMapping'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'routerFunctionMapping'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'resourceHandlerMapping'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2023-06-14 09:42:45 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Started============== configureDefaultServletHandling
+2023-06-14 09:42:45 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/**] in 'defaultServletHandlerMapping'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2023-06-14 09:42:45 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcValidator'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2023-06-14 09:42:46 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				ControllerAdvice beans: none
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerExceptionResolver'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 09:42:46 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				ControllerAdvice beans: none
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcViewResolver'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'localeResolver'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'themeResolver'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'flashMapManager'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewNameTranslator'
+2023-06-14 09:42:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'multipartResolver'
+2023-06-14 09:42:46 [main] INFO  c.x.d.c.DonationConfiguration -
+				 MultipartResolver created....
+2023-06-14 09:42:47 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected StandardServletMultipartResolver
+2023-06-14 09:42:47 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected AcceptHeaderLocaleResolver
+2023-06-14 09:42:47 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected FixedThemeResolver
+2023-06-14 09:42:47 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@40edc64e
+2023-06-14 09:42:47 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.support.SessionFlashMapManager@1fec9d33
+2023-06-14 09:42:47 [main] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2023-06-14 09:42:47 [main] DEBUG o.s.jndi.JndiLocatorDelegate -
+				Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2023-06-14 09:42:47 [main] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2023-06-14 09:42:47 [main] DEBUG o.s.jndi.JndiPropertySource -
+				JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2023-06-14 09:42:47 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-14 09:42:47 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 3583 ms
+2023-06-14 09:55:55 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getRootConfigClasses 
+2023-06-14 09:55:55 [main] DEBUG c.x.d.configuration.WebInit -
+				No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-06-14 09:55:55 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletConfigClasses
+2023-06-14 09:55:55 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletMappings 
+2023-06-14 09:55:55 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcher'
+2023-06-14 09:55:55 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2023-06-14 09:55:56 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Registering component classes: [class com.xworkz.donationapp.configuration.DonationConfiguration]
+2023-06-14 09:55:56 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-06-14 09:55:56 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\BloodGroupController.class]
+2023-06-14 09:55:56 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\DefaultController.class]
+2023-06-14 09:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-06-14 09:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-06-14 09:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-06-14 09:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-06-14 09:55:57 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@1f95158a]
+2023-06-14 09:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'donationConfiguration'
+2023-06-14 09:55:57 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Strated============== DonationConfiguration
+2023-06-14 09:55:57 [main] INFO  c.x.d.c.DonationConfiguration -
+				Created DonationConfiguration$$EnhancerBySpringCGLIB$$8e334a1f
+2023-06-14 09:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'bloodGroupController'
+2023-06-14 10:04:13 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getRootConfigClasses 
+2023-06-14 10:04:13 [main] DEBUG c.x.d.configuration.WebInit -
+				No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-06-14 10:04:14 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletConfigClasses
+2023-06-14 10:04:14 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletMappings 
+2023-06-14 10:04:14 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcher'
+2023-06-14 10:04:14 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2023-06-14 10:04:14 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Registering component classes: [class com.xworkz.donationapp.configuration.DonationConfiguration]
+2023-06-14 10:04:14 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-06-14 10:04:15 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\BloodGroupController.class]
+2023-06-14 10:04:15 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\DefaultController.class]
+2023-06-14 10:04:15 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-06-14 10:04:15 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-06-14 10:04:15 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-06-14 10:04:15 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-06-14 10:04:15 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@57515944]
+2023-06-14 10:04:15 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'donationConfiguration'
+2023-06-14 10:04:15 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Strated============== DonationConfiguration
+2023-06-14 10:04:15 [main] INFO  c.x.d.c.DonationConfiguration -
+				Created DonationConfiguration$$EnhancerBySpringCGLIB$$8f3a54da
+2023-06-14 10:04:15 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'bloodGroupController'
+2023-06-14 10:04:15 [main] INFO  c.x.d.c.BloodGroupController -
+				Class Starting====:BloodGroupController====
+2023-06-14 10:04:15 [main] INFO  c.x.d.c.BloodGroupController -
+				createdBloodGroupController
+2023-06-14 10:04:15 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultController'
+2023-06-14 10:04:15 [main] INFO  c.x.d.controller.DefaultController -
+				CreatedDefaultController
+2023-06-14 10:04:15 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcConversionService'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:04:16 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				4 mappings in 'requestMappingHandlerMapping'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPatternParser'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPathMatcher'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:04:16 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====starting============== configureDefaultServletHandling
+2023-06-14 10:04:16 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/] in 'viewControllerHandlerMapping'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'routerFunctionMapping'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'resourceHandlerMapping'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2023-06-14 10:04:16 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Started============== configureDefaultServletHandling
+2023-06-14 10:04:16 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/**] in 'defaultServletHandlerMapping'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2023-06-14 10:04:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcValidator'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2023-06-14 10:04:17 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				ControllerAdvice beans: none
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerExceptionResolver'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:04:17 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				ControllerAdvice beans: none
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcViewResolver'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'localeResolver'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'themeResolver'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'flashMapManager'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewNameTranslator'
+2023-06-14 10:04:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'multipartResolver'
+2023-06-14 10:04:17 [main] INFO  c.x.d.c.DonationConfiguration -
+				 MultipartResolver created....
+2023-06-14 10:04:17 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected StandardServletMultipartResolver
+2023-06-14 10:04:17 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected AcceptHeaderLocaleResolver
+2023-06-14 10:04:17 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected FixedThemeResolver
+2023-06-14 10:04:17 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@372f7bc
+2023-06-14 10:04:17 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.support.SessionFlashMapManager@8e8ceb3
+2023-06-14 10:04:17 [main] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2023-06-14 10:04:17 [main] DEBUG o.s.jndi.JndiLocatorDelegate -
+				Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2023-06-14 10:04:17 [main] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2023-06-14 10:04:17 [main] DEBUG o.s.jndi.JndiPropertySource -
+				JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2023-06-14 10:04:17 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-14 10:04:17 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 3609 ms
+2023-06-14 10:04:18 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				GET "/spring-donation-managment-system/", parameters={}
+2023-06-14 10:04:18 [http-nio-8082-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped to ParameterizableViewController [view="donation.jsp"]
+2023-06-14 10:04:18 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.view.JstlView -
+				View name 'donation.jsp', model {}
+2023-06-14 10:04:18 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.view.JstlView -
+				Forwarding to [donation.jsp]
+2023-06-14 10:04:18 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				Completed 200 OK
+2023-06-14 10:05:22 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet -
+				POST "/spring-donation-managment-system/donate", parameters={multipart}
+2023-06-14 10:05:22 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped to com.xworkz.donationapp.controller.BloodGroupController#onDonate(BloodGroupDonationDTO, BindingResult, Model, MultipartFile)
+2023-06-14 10:05:22 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				ru
+ning on donateBloodGroupDonationDTO(personName=nandish, group=B+, age=57, address=jarkand, weight=57.0, fileName=null, contentType=null, fileSize=0)
+2023-06-14 10:05:22 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				data is valid
+2023-06-14 10:05:22 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				file attached :KiranKammarResume.png
+2023-06-14 10:05:22 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				File recivefile
+2023-06-14 10:05:22 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				File size103563
+2023-06-14 10:05:22 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				File Typeimage/png
+2023-06-14 10:05:22 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				File byte[B@bc015b5
+2023-06-14 10:05:22 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				dto added to,with total1
+2023-06-14 10:05:22 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.view.JstlView -
+				View name '/donation.jsp', model {bloodGroupDonationDTO=BloodGroupDonationDTO(personName=nandish, group=B+, age=57, address=jarkand, weight=57.0, fileName=1686717322660_KiranKammarResume.png, contentType=image/png, fileSize=103563), org.springframework.validation.BindingResult.bloodGroupDonationDTO=org.springframework.validation.BeanPropertyBindingResult: 0 errors, dtos=BloodGroupDonationDTO(personName=nandish, group=B+, age=57, address=jarkand, weight=57.0, fileName=1686717322660_KiranKammarResume.png, contentType=image/png, fileSize=103563), successMsg=Blood Group ofnandishsave successfully.., org.springframework.validation.BindingResult.dtos=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2023-06-14 10:05:22 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.view.JstlView -
+				Forwarding to [/donation.jsp]
+2023-06-14 10:05:22 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet -
+				Completed 200 OK
+2023-06-14 10:07:04 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet -
+				GET "/spring-donation-managment-system/filedownload?fileName=KiranKammarResume.png&contentType=application%2Fpng", parameters={masked}
+2023-06-14 10:07:04 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped to com.xworkz.donationapp.controller.BloodGroupController#sendImage(String, String, HttpServletResponse)
+2023-06-14 10:07:04 [http-nio-8082-exec-3] INFO  c.x.d.c.BloodGroupController -
+				running sendImage....
+2023-06-14 10:07:04 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet -
+				Completed 200 OK
+2023-06-14 10:10:57 [Catalina-utility-1] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Wed Jun 14 10:04:14 IST 2023
+2023-06-14 10:11:00 [Catalina-utility-1] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getRootConfigClasses 
+2023-06-14 10:11:00 [Catalina-utility-1] DEBUG c.x.d.configuration.WebInit -
+				No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-06-14 10:11:00 [Catalina-utility-1] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletConfigClasses
+2023-06-14 10:11:01 [Catalina-utility-1] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletMappings 
+2023-06-14 10:11:01 [Catalina-utility-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcher'
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Registering component classes: [class com.xworkz.donationapp.configuration.DonationConfiguration]
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\BloodGroupController.class]
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\DefaultController.class]
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@5ee00426]
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'donationConfiguration'
+2023-06-14 10:11:01 [Catalina-utility-1] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Strated============== DonationConfiguration
+2023-06-14 10:11:01 [Catalina-utility-1] INFO  c.x.d.c.DonationConfiguration -
+				Created DonationConfiguration$$EnhancerBySpringCGLIB$$aad31e37
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'bloodGroupController'
+2023-06-14 10:11:01 [Catalina-utility-1] INFO  c.x.d.c.BloodGroupController -
+				Class Starting====:BloodGroupController====
+2023-06-14 10:11:01 [Catalina-utility-1] INFO  c.x.d.c.BloodGroupController -
+				createdBloodGroupController
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultController'
+2023-06-14 10:11:01 [Catalina-utility-1] INFO  c.x.d.controller.DefaultController -
+				CreatedDefaultController
+2023-06-14 10:11:01 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcConversionService'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				4 mappings in 'requestMappingHandlerMapping'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPatternParser'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPathMatcher'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:11:02 [Catalina-utility-1] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====starting============== configureDefaultServletHandling
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/] in 'viewControllerHandlerMapping'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'routerFunctionMapping'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'resourceHandlerMapping'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2023-06-14 10:11:02 [Catalina-utility-1] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Started============== configureDefaultServletHandling
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/**] in 'defaultServletHandlerMapping'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcValidator'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2023-06-14 10:11:02 [Catalina-utility-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				ControllerAdvice beans: none
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerExceptionResolver'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				ControllerAdvice beans: none
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcViewResolver'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'localeResolver'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'themeResolver'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'flashMapManager'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewNameTranslator'
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'multipartResolver'
+2023-06-14 10:11:03 [Catalina-utility-1] INFO  c.x.d.c.DonationConfiguration -
+				 MultipartResolver created....
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected StandardServletMultipartResolver
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected AcceptHeaderLocaleResolver
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected FixedThemeResolver
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@26529a83
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.support.SessionFlashMapManager@4348c23e
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.jndi.JndiLocatorDelegate -
+				Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.jndi.JndiPropertySource -
+				JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2023-06-14 10:11:03 [Catalina-utility-1] DEBUG o.s.web.servlet.DispatcherServlet -
+				enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-14 10:11:03 [Catalina-utility-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 2165 ms
+2023-06-14 10:34:29 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Wed Jun 14 10:11:01 IST 2023
+2023-06-14 10:34:35 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getRootConfigClasses 
+2023-06-14 10:34:35 [main] DEBUG c.x.d.configuration.WebInit -
+				No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-06-14 10:34:35 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletConfigClasses
+2023-06-14 10:34:35 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletMappings 
+2023-06-14 10:34:35 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcher'
+2023-06-14 10:34:35 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2023-06-14 10:34:35 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Registering component classes: [class com.xworkz.donationapp.configuration.DonationConfiguration]
+2023-06-14 10:34:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-06-14 10:34:36 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\BloodGroupController.class]
+2023-06-14 10:34:36 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\DefaultController.class]
+2023-06-14 10:34:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-06-14 10:34:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-06-14 10:34:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-06-14 10:34:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-06-14 10:34:36 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@2cff03cf]
+2023-06-14 10:34:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'donationConfiguration'
+2023-06-14 10:34:36 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Strated============== DonationConfiguration
+2023-06-14 10:34:36 [main] INFO  c.x.d.c.DonationConfiguration -
+				Created DonationConfiguration$$EnhancerBySpringCGLIB$$12436cb4
+2023-06-14 10:34:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'bloodGroupController'
+2023-06-14 10:34:36 [main] INFO  c.x.d.c.BloodGroupController -
+				Class Starting====:BloodGroupController====
+2023-06-14 10:34:36 [main] INFO  c.x.d.c.BloodGroupController -
+				createdBloodGroupController
+2023-06-14 10:34:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultController'
+2023-06-14 10:34:36 [main] INFO  c.x.d.controller.DefaultController -
+				CreatedDefaultController
+2023-06-14 10:34:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcConversionService'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:34:37 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				4 mappings in 'requestMappingHandlerMapping'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPatternParser'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPathMatcher'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:34:37 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====starting============== configureDefaultServletHandling
+2023-06-14 10:34:37 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/] in 'viewControllerHandlerMapping'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'routerFunctionMapping'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'resourceHandlerMapping'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2023-06-14 10:34:37 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Started============== configureDefaultServletHandling
+2023-06-14 10:34:37 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/**] in 'defaultServletHandlerMapping'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2023-06-14 10:34:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcValidator'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2023-06-14 10:34:38 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				ControllerAdvice beans: none
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerExceptionResolver'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:34:38 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				ControllerAdvice beans: none
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcViewResolver'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'localeResolver'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'themeResolver'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'flashMapManager'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewNameTranslator'
+2023-06-14 10:34:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'multipartResolver'
+2023-06-14 10:34:38 [main] INFO  c.x.d.c.DonationConfiguration -
+				 MultipartResolver created....
+2023-06-14 10:34:38 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected StandardServletMultipartResolver
+2023-06-14 10:34:38 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected AcceptHeaderLocaleResolver
+2023-06-14 10:34:38 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected FixedThemeResolver
+2023-06-14 10:34:38 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4a14f7d7
+2023-06-14 10:34:38 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.support.SessionFlashMapManager@66596c4c
+2023-06-14 10:34:38 [main] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2023-06-14 10:34:38 [main] DEBUG o.s.jndi.JndiLocatorDelegate -
+				Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2023-06-14 10:34:38 [main] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2023-06-14 10:34:38 [main] DEBUG o.s.jndi.JndiPropertySource -
+				JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2023-06-14 10:34:38 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-14 10:34:38 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 3266 ms
+2023-06-14 10:34:39 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet -
+				GET "/spring-donation-managment-system/", parameters={}
+2023-06-14 10:34:39 [http-nio-8082-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped to ParameterizableViewController [view="donation.jsp"]
+2023-06-14 10:34:39 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.view.JstlView -
+				View name 'donation.jsp', model {}
+2023-06-14 10:34:39 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.view.JstlView -
+				Forwarding to [donation.jsp]
+2023-06-14 10:34:40 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet -
+				Completed 200 OK
+2023-06-14 10:36:01 [http-nio-8082-exec-7] DEBUG o.s.web.servlet.DispatcherServlet -
+				POST "/spring-donation-managment-system/donate", parameters={multipart}
+2023-06-14 10:36:01 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped to com.xworkz.donationapp.controller.BloodGroupController#onDonate(BloodGroupDonationDTO, BindingResult, Model, MultipartFile)
+2023-06-14 10:36:01 [http-nio-8082-exec-7] INFO  c.x.d.c.BloodGroupController -
+				ru
+ning on donateBloodGroupDonationDTO(personName=kiran, group=B+, age=55, address=jagnur, weight=58.0, fileName=null, contentType=null, fileSize=0)
+2023-06-14 10:36:01 [http-nio-8082-exec-7] INFO  c.x.d.c.BloodGroupController -
+				data is valid
+2023-06-14 10:36:01 [http-nio-8082-exec-7] INFO  c.x.d.c.BloodGroupController -
+				file attached :KiranKammarResume (2).png
+2023-06-14 10:36:01 [http-nio-8082-exec-7] INFO  c.x.d.c.BloodGroupController -
+				File recivefile
+2023-06-14 10:36:01 [http-nio-8082-exec-7] INFO  c.x.d.c.BloodGroupController -
+				File size103563
+2023-06-14 10:36:01 [http-nio-8082-exec-7] INFO  c.x.d.c.BloodGroupController -
+				File Typeimage/png
+2023-06-14 10:36:01 [http-nio-8082-exec-7] INFO  c.x.d.c.BloodGroupController -
+				File byte[B@5014dd1e
+2023-06-14 10:36:01 [http-nio-8082-exec-7] INFO  c.x.d.c.BloodGroupController -
+				dto added to,with total1
+2023-06-14 10:36:01 [http-nio-8082-exec-7] DEBUG o.s.web.servlet.view.JstlView -
+				View name '/donation.jsp', model {bloodGroupDonationDTO=BloodGroupDonationDTO(personName=kiran, group=B+, age=55, address=jagnur, weight=58.0, fileName=1686719161712_KiranKammarResume (2).png, contentType=image/png, fileSize=103563), org.springframework.validation.BindingResult.bloodGroupDonationDTO=org.springframework.validation.BeanPropertyBindingResult: 0 errors, dtos=BloodGroupDonationDTO(personName=kiran, group=B+, age=55, address=jagnur, weight=58.0, fileName=1686719161712_KiranKammarResume (2).png, contentType=image/png, fileSize=103563), successMsg=Blood Group ofkiransave successfully.., org.springframework.validation.BindingResult.dtos=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2023-06-14 10:36:01 [http-nio-8082-exec-7] DEBUG o.s.web.servlet.view.JstlView -
+				Forwarding to [/donation.jsp]
+2023-06-14 10:36:01 [http-nio-8082-exec-7] DEBUG o.s.web.servlet.DispatcherServlet -
+				Completed 200 OK
+2023-06-14 10:37:23 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet -
+				GET "/spring-donation-managment-system/list", parameters={}
+2023-06-14 10:37:23 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped to com.xworkz.donationapp.controller.BloodGroupController#showData(Model)
+2023-06-14 10:37:23 [http-nio-8082-exec-1] INFO  c.x.d.c.BloodGroupController -
+				running showdata
+2023-06-14 10:37:23 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.view.JstlView -
+				View name '/table.jsp', model {dtos=[BloodGroupDonationDTO(personName=kiran, group=B+, age=55, address=jagnur, weight=58.0, fileName=1686719161712_KiranKammarResume (2).png, contentType=image/png, fileSize=103563)]}
+2023-06-14 10:37:23 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.view.JstlView -
+				Forwarding to [/table.jsp]
+2023-06-14 10:37:23 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet -
+				Completed 200 OK
+2023-06-14 10:38:02 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.DispatcherServlet -
+				GET "/spring-donation-managment-system/list", parameters={}
+2023-06-14 10:38:02 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped to com.xworkz.donationapp.controller.BloodGroupController#showData(Model)
+2023-06-14 10:38:02 [http-nio-8082-exec-8] INFO  c.x.d.c.BloodGroupController -
+				running showdata
+2023-06-14 10:38:02 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.view.JstlView -
+				View name '/table.jsp', model {dtos=[BloodGroupDonationDTO(personName=kiran, group=B+, age=55, address=jagnur, weight=58.0, fileName=1686719161712_KiranKammarResume (2).png, contentType=image/png, fileSize=103563)]}
+2023-06-14 10:38:02 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.view.JstlView -
+				Forwarding to [/table.jsp]
+2023-06-14 10:38:02 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.DispatcherServlet -
+				Completed 200 OK
+2023-06-14 10:38:17 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet -
+				GET "/spring-donation-managment-system/filedownload?fileName=KiranKammarResume+%282%29.png&contentType=application%2Fpng", parameters={masked}
+2023-06-14 10:38:17 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped to com.xworkz.donationapp.controller.BloodGroupController#sendImage(String, String, HttpServletResponse)
+2023-06-14 10:38:17 [http-nio-8082-exec-6] INFO  c.x.d.c.BloodGroupController -
+				running sendImage....
+2023-06-14 10:38:17 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet -
+				Completed 200 OK
+2023-06-14 10:41:11 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Wed Jun 14 10:34:35 IST 2023
+2023-06-14 10:41:18 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getRootConfigClasses 
+2023-06-14 10:41:18 [main] DEBUG c.x.d.configuration.WebInit -
+				No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-06-14 10:41:18 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletConfigClasses
+2023-06-14 10:41:18 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletMappings 
+2023-06-14 10:41:18 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcher'
+2023-06-14 10:41:18 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2023-06-14 10:41:19 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Registering component classes: [class com.xworkz.donationapp.configuration.DonationConfiguration]
+2023-06-14 10:41:19 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-06-14 10:41:19 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\BloodGroupController.class]
+2023-06-14 10:41:19 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\DefaultController.class]
+2023-06-14 10:41:20 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-06-14 10:41:20 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-06-14 10:41:20 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-06-14 10:41:20 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-06-14 10:41:20 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@1055d261]
+2023-06-14 10:41:20 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'donationConfiguration'
+2023-06-14 10:41:20 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Strated============== DonationConfiguration
+2023-06-14 10:41:20 [main] INFO  c.x.d.c.DonationConfiguration -
+				Created DonationConfiguration$$EnhancerBySpringCGLIB$$8c880598
+2023-06-14 10:41:20 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'bloodGroupController'
+2023-06-14 10:49:00 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getRootConfigClasses 
+2023-06-14 10:49:01 [main] DEBUG c.x.d.configuration.WebInit -
+				No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-06-14 10:49:01 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletConfigClasses
+2023-06-14 10:49:01 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletMappings 
+2023-06-14 10:49:01 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcher'
+2023-06-14 10:49:01 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2023-06-14 10:49:01 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Registering component classes: [class com.xworkz.donationapp.configuration.DonationConfiguration]
+2023-06-14 10:49:01 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-06-14 10:49:02 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\BloodGroupController.class]
+2023-06-14 10:49:02 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\DefaultController.class]
+2023-06-14 10:49:02 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-06-14 10:49:02 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-06-14 10:49:02 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-06-14 10:49:02 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-06-14 10:49:02 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@1ea96ff2]
+2023-06-14 10:49:02 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'donationConfiguration'
+2023-06-14 10:49:02 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Strated============== DonationConfiguration
+2023-06-14 10:49:02 [main] INFO  c.x.d.c.DonationConfiguration -
+				Created DonationConfiguration$$EnhancerBySpringCGLIB$$91aa67b3
+2023-06-14 10:49:02 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'bloodGroupController'
+2023-06-14 10:49:02 [main] INFO  c.x.d.c.BloodGroupController -
+				Class Starting====:BloodGroupController====
+2023-06-14 10:49:02 [main] INFO  c.x.d.c.BloodGroupController -
+				createdBloodGroupController
+2023-06-14 10:49:02 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultController'
+2023-06-14 10:49:02 [main] INFO  c.x.d.controller.DefaultController -
+				CreatedDefaultController
+2023-06-14 10:49:02 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2023-06-14 10:49:02 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2023-06-14 10:49:02 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2023-06-14 10:49:02 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcConversionService'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:49:03 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				4 mappings in 'requestMappingHandlerMapping'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPatternParser'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPathMatcher'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:49:03 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====starting============== configureDefaultServletHandling
+2023-06-14 10:49:03 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/] in 'viewControllerHandlerMapping'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'routerFunctionMapping'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'resourceHandlerMapping'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2023-06-14 10:49:03 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Started============== configureDefaultServletHandling
+2023-06-14 10:49:03 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/**] in 'defaultServletHandlerMapping'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2023-06-14 10:49:03 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcValidator'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2023-06-14 10:49:04 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				ControllerAdvice beans: none
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerExceptionResolver'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:49:04 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				ControllerAdvice beans: none
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcViewResolver'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'localeResolver'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'themeResolver'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'flashMapManager'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewNameTranslator'
+2023-06-14 10:49:04 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'multipartResolver'
+2023-06-14 10:49:04 [main] INFO  c.x.d.c.DonationConfiguration -
+				 MultipartResolver created....
+2023-06-14 10:49:04 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected StandardServletMultipartResolver
+2023-06-14 10:49:04 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected AcceptHeaderLocaleResolver
+2023-06-14 10:49:04 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected FixedThemeResolver
+2023-06-14 10:49:04 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@372f7bc
+2023-06-14 10:49:04 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				Detected org.springframework.web.servlet.support.SessionFlashMapManager@8e8ceb3
+2023-06-14 10:49:04 [main] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2023-06-14 10:49:04 [main] DEBUG o.s.jndi.JndiLocatorDelegate -
+				Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2023-06-14 10:49:04 [main] DEBUG o.springframework.jndi.JndiTemplate -
+				Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2023-06-14 10:49:04 [main] DEBUG o.s.jndi.JndiPropertySource -
+				JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2023-06-14 10:49:04 [main] DEBUG o.s.web.servlet.DispatcherServlet -
+				enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-06-14 10:49:04 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 3240 ms
+2023-06-14 10:49:05 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				GET "/spring-donation-managment-system/", parameters={}
+2023-06-14 10:49:05 [http-nio-8082-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped to ParameterizableViewController [view="donation.jsp"]
+2023-06-14 10:49:05 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.view.JstlView -
+				View name 'donation.jsp', model {}
+2023-06-14 10:49:05 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.view.JstlView -
+				Forwarding to [donation.jsp]
+2023-06-14 10:49:05 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.DispatcherServlet -
+				Completed 200 OK
+2023-06-14 10:49:58 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Closing WebApplicationContext for namespace 'dispatcher-servlet', started on Wed Jun 14 10:49:01 IST 2023
+2023-06-14 10:50:04 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getRootConfigClasses 
+2023-06-14 10:50:04 [main] DEBUG c.x.d.configuration.WebInit -
+				No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-06-14 10:50:04 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletConfigClasses
+2023-06-14 10:50:05 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletMappings 
+2023-06-14 10:50:05 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcher'
+2023-06-14 10:50:05 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2023-06-14 10:50:05 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Registering component classes: [class com.xworkz.donationapp.configuration.DonationConfiguration]
+2023-06-14 10:50:05 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-06-14 10:50:06 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\BloodGroupController.class]
+2023-06-14 10:50:06 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\DefaultController.class]
+2023-06-14 10:50:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-06-14 10:50:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-06-14 10:50:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-06-14 10:50:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-06-14 10:50:06 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@198c0f1c]
+2023-06-14 10:50:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'donationConfiguration'
+2023-06-14 10:50:06 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Strated============== DonationConfiguration
+2023-06-14 10:50:06 [main] INFO  c.x.d.c.DonationConfiguration -
+				Created DonationConfiguration$$EnhancerBySpringCGLIB$$f49e407c
+2023-06-14 10:50:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'bloodGroupController'
+2023-06-14 10:52:36 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getRootConfigClasses 
+2023-06-14 10:52:36 [main] DEBUG c.x.d.configuration.WebInit -
+				No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-06-14 10:52:36 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletConfigClasses
+2023-06-14 10:52:36 [main] INFO  c.x.d.configuration.WebInit -
+				Class:WebInit====Running getServletMappings 
+2023-06-14 10:52:36 [main] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcher'
+2023-06-14 10:52:36 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+2023-06-14 10:52:37 [main] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext -
+				Registering component classes: [class com.xworkz.donationapp.configuration.DonationConfiguration]
+2023-06-14 10:52:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-06-14 10:52:37 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\BloodGroupController.class]
+2023-06-14 10:52:37 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-donation-managment-system\WEB-INF\classes\com\xworkz\donationapp\controller\DefaultController.class]
+2023-06-14 10:52:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-06-14 10:52:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-06-14 10:52:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-06-14 10:52:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-06-14 10:52:38 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@1f95158a]
+2023-06-14 10:52:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'donationConfiguration'
+2023-06-14 10:52:38 [main] INFO  c.x.d.c.DonationConfiguration -
+				Class:DonationConfiguration====Strated============== DonationConfiguration
+2023-06-14 10:52:38 [main] INFO  c.x.d.c.DonationConfiguration -
+				Created DonationConfiguration$$EnhancerBySpringCGLIB$$8e334a1f
+2023-06-14 10:52:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'bloodGroupController'

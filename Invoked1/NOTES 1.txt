@@ -1,0 +1,57 @@
+Registore,logIN,Home
+
+Css frameWork -BootStrap
+java scritf
+
+
+
+
+web pagess
+static web page,dyanamic web pagess
+
+Static web pagess--wikepedia
+
+HTML meance like =skeltone
+
+SKIN=CSS
+
+HEART,BARIN=JAVASCRIT
+DYANAMIC WEB PAGES=HTMAL,CSS,BOOTSTRIP,JAVASCRIFT
+
+HTML:MARKUP LANGUGE,IT IS CALLED PROGRAMMMING LANGUAGE
+HTMAL
+
+
+
+
+<HTML>= THIS IS START TAG
+HTML=ELEMENT
+
+<-- COMMITING  -->  == COMMITING IN HTML
+
+
+<!----EVERY CONTAENT WILL BE WRETTEN CODE WHICH WILL BE    ---->
+
+
+<!----EVERY CONTAENT WILL BE WRETTEN CODE WHICH WILL BE    ---->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+create database cosmeticc;
+
+show databases;
+
+CREATE TABLE cosmeticc_detail(cosmeticId int,cosmeticsName varchar(40),cosType varchar(40),
+price varchar(40),expDate varchar(4),mfgDate varchar(45));
+
+ 
+
+SELECT * FROM cosmetic_details;

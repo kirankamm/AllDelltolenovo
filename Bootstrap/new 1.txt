@@ -1,0 +1,4 @@
+What is Bootsrap?
+Image result for define the bootstrap
+Bootstrap is a free and open-source web development framework.
+ It's designed to ease the web development process of responsive, mobile-first websites by providing a collection of syntax for template designs

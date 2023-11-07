@@ -1,0 +1,136 @@
+
+association
+
+push,pop most commanly used  in stack
+
+string str=""; 
+1) literl
+2)new
+value = literal
+
+
+scp-SCP string contant pool  is create objecte
+
+ outside heap save
+ 
+ and inside of stack
+ 
+ strings objecte are immutable
+ 
+ final once is can not inhrit
+ 
+ immutable,,,,,,, no budy change class 
+ 
+ 
+ same radika, radika onely one objct created its depenad ref oibjct same name same objc inthis 
+ only check value commparision
+ 
+ behavier of buffer
+             bilder
+			 string
+			 
+			 == .......meanse referece
+ 
+ 
+ sb and sb are use reffence class
+
+
+
+compli and run time excptn occer in run time 
+ 
+ new new momory come
+ 
+replace,eual, cnt, to upper , tolower wr ,tochar 
+
+wrppining ton use to puare objt orintadd int to Intger
+
+not use dericater -----------
+ 
+ unboxing call,.....Integer to int used by.......... lg.longValue;
+ 
+ int to long impicity
+ longg to int  explicity
+ 
+ parsByte
+ 
+ 
+ 
+ uesr and device =interface
+ 
+ in infce we can not create object
+ 
+ 
+ 
+stack is  empty..fill sertain time
+
+data is frame
+
+https://github.com/kirankamm/core-java/pull/new/testtwoo
+
+
+
+data prive variable
+defaulte constrater
+class 
+bulic void
+
+
+setter and getter......setManagerId
+
+
+instatce vrbl= paramtr......this key
+
+encapsulation.....grp in single block 
+
+
+encpton
+
+if else to another using switch
+
+can we inherit static homework
+ 
+ 
+ exapmlw of com and run time.
+
+
+
+    fileNotFoundExeption and class not found exption are the complie time exception 
+ 
+ 
+
+home work..............
+error vs exception difference
+
+
+
+error .........come from java
+
+
+
+checked and uncheck ecxeption
+
+
+
+comple time = check exception
+
+
+check runtime excption
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,1 @@
+SELECT * FROM mvc.parking_details;

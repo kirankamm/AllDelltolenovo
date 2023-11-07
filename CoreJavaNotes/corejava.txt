@@ -1,0 +1,45 @@
+
+stack is  empty..fill sertain time
+
+data is frame
+
+https://github.com/kirankamm/core-java/pull/new/testtwoo
+
+
+
+                  exception
+
+		exception is class			  
+exception....unexpted condition,unexpted event,ubnormal event        abadtrbde
+to make code stong
+
+try an catch this are blocks,,,,,alternative solution
+
+try{
+//code
+     }catch(artimaticException or reference  e)
+
+
+  class cmpall time come  c....c
+ objecte time  runtine come 
+
+
+stack trace belove all are
+handeler...
+user defind handler(catch)...
+defaulty 
+
+
+name of exptn
+
+which line of code
+ exptn got occured
+
+
+
+
+
+
+
+
+
