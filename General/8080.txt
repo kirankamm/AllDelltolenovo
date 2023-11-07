@@ -1,0 +1,20 @@
+, random [true].
+10-Apr-2023 20:52:48.517 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-Apr-2023 20:52:48.535 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+10-Apr-2023 20:52:49.148 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2023 20:52:49.490 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1280] milliseconds
+10-Apr-2023 20:52:49.559 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Apr-2023 20:52:49.560 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.38]
+10-Apr-2023 20:52:49.583 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Dell\Downloads\apache-tomcat-9.0.38\webapps\docs]
+10-Apr-2023 20:52:49.946 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Dell\Downloads\apache-tomcat-9.0.38\webapps\docs] has finished in [362] ms
+10-Apr-2023 20:52:49.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Dell\Downloads\apache-tomcat-9.0.38\webapps\examples]
+10-Apr-2023 20:52:50.483 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Dell\Downloads\apache-tomcat-9.0.38\webapps\examples] has finished in [535] ms
+10-Apr-2023 20:52:50.484 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Dell\Downloads\apache-tomcat-9.0.38\webapps\host-manager]
+10-Apr-2023 20:52:50.542 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Dell\Downloads\apache-tomcat-9.0.38\webapps\host-manager] has finished in [59] ms
+10-Apr-2023 20:52:50.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Dell\Downloads\apache-tomcat-9.0.38\webapps\manager]
+10-Apr-2023 20:52:50.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Dell\Downloads\apache-tomcat-9.0.38\webapps\manager] has finished in [54] ms
+10-Apr-2023 20:52:50.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Dell\Downloads\apache-tomcat-9.0.38\webapps\ROOT]
+10-Apr-2023 20:52:50.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Dell\Downloads\apache-tomcat-9.0.38\webapps\ROOT] has finished in [41] ms
+10-Apr-2023 20:52:50.646 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2023 20:52:50.658 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1157] milliseconds
+

@@ -1,0 +1,17 @@
+
+
+
+.container{
+
+    width: 100px; height: 50px; border: 1px solid red; margin:0 auto;
+    
+    }
+    .col{
+        width: 200px; height: 200px; background-color: yellow; float: left; 
+        border: 1px solid black;
+        padding: 40px;
+        margin: 10px;
+    
+    }
+    
+    box-si
