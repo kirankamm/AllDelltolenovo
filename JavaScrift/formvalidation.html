@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+<script>
+
+    function registor(){
+console.log("function creation")
+
+var firstName =document.getElementById("firstName")
+console.log(firstName)
+console.log(firstName.value)
+
+if(firstName.value==''){
+var firstNameMassage=document.getElementById("firstNameMassage")
+firstNameMassage.innerHTML='please enter the first name'
+firstNameMassage.style.color='red'
+
+return
+// return is not save in console
+}
+
+
+
+
+
+var lastName =document.getElementById("lastName")
+console.log(lastName)
+console.log(lastName.value)
+
+if(lastName.value==''){
+
+var lastNameMassage=document.getElementById("lastNameMassage")
+lastNameMassage.innerHTML='please enter the last name'
+lastNameMassage.style.color='red'
+return
+
+}
+
+
+
+
+
+var lastName =document.getElementById("password")
+console.log(password)
+console.log(password.value)
+
+if(lastName.value==''){
+var passwordMassage=document.getElementById("passwordMassage")
+passwordMassage.innerHTML='please enter the password'
+passwordMassage.style.color='red'
+
+return
+}
+
+
+
+
+
+let EmailMassage=document.getElementById("Email")
+if(Email.value==''){
+
+let EmailMassage=document.getElementById("EmailMassage")
+EmailMassage.innerHTML='please enter the EmailId'
+EmailMassage.style.color='red'
+return
+
+}
+
+
+
+
+
+if(Email.value.length <4) {
+
+let EmailMassage=document.getElementById("EmailMassage")
+EmailMassage.innerHTML='Email should be more than 4 charecter of  the EmailId'
+EmailMassage.style.color='red'
+
+return
+}
+
+
+
+
+var gender = document.registration.gender
+
+            console.log(gender)
+            console.log(gender[0])
+            console.log(gender[1])
+            console.log(gender[2])
+
+
+
+            var genderMsg = document.getElementById("genderMsg")
+            genderMsg.innerHTML = ''
+            if(gender[0].checked == false && gender[1].checked == false && gender[2].checked == false){
+                console.log("gender is not selected")
+                genderMsg.innerHTML = "error...please select the gender"
+                genderMsg.style.color ='red'
+             return   
+            }
+
+
+
+            var city = document.registration.city
+            console.log(city)
+            console.log(city.value)
+            var cityMsg = document.getElementById("cityMsg")//object
+            cityMsg.innerHTML = ''
+
+
+            if(city.value == "0"){
+                console.log("city not selected")
+                cityMsg.innerHTML = "error...please select the city"
+                cityMsg.style.color = 'red'
+                return
+            }
+
+
+            
+            var genderData
+if(gender[0].checked==true){
+genderData=gender[0].value
+}
+
+if(gender[1].checked==true){
+genderData=gender[1].value
+}
+
+if(gender[2].checked==true){
+genderData=gender[2].value
+}
+
+console.log(genderData)
+console.log(firstName.value)
+console.log(Email.value)
+
+console.log(city.value)
+console.log(password.value)
+
+
+localStorage.setItem("java","javascript")
+var location=localStorage.getItem("java")
+
+console.log(location)
+
+var registorData={
+"firstName":firstName.value,
+"Email":Email.value,
+"gender":genderData,
+"city":city.value
+
+}
+
+console.log(registorData)
+console.log(typeof(registorData))
+
+var registorDataString=JSON.stringify(registorData)
+console.log(typeof(registorDataString))
+
+// localStorage.setItem("save",registorDataString)
+
+let registorArray=[]
+let existingData=localStorage.getItem("save")
+
+if(existingData !=null){
+
+    let existingDataArray=JSON.parse(exisitingData)
+    existingDataArray.push(registorData)
+    console.log(existingDataArray)
+    localStorage.setItem("saveuseres",JSON.stringify(existingDataArray))
+}else{
+registorArray.push(existingData)
+console.log(registorArray)
+console.log(registorArray)
+localStorage.setItem("saveuseres",JSON.stringify(existingDataArray))
+}
+
+registorArray.push(registorDataString)
+console.log(registorArray)
+localStorage.setItem("save",registorArray)
+
+    }
+
+
+function checkName(){
+
+    var firstName =document.getElementById("firstName")
+console.log(firstName)
+console.log(firstName.value)
+
+if(firstName.value==''){
+var firstNameMassage=document.getElementById("firstNameMassage")
+firstNameMassage.innerHTML='please enter the first name'
+firstNameMassage.style.color='red'
+return
+
+
+}
+}
+
+
+
+
+</script>
+
+</head>
+
+<body>
+  
+    <form name="registration">
+<div>
+    <label>Enter the fist name</label>
+<input type="text" name="firstname" id="firstName" onblur="checkName()">
+<div id="firstNameMassage"></div>
+
+</div>
+
+
+<div>
+    <label>Enter the Last name</label>
+<input type="text" name="lastname" id="lastName">
+<div id="lastNameMassage"></div>
+
+</div>
+
+<div>
+    <label>Enter the Email</label>
+    <input type="text" name="Email" id="Email">
+    <div id="EmailMassage"></div>
+
+</div>
+
+<div>
+    <label>Enter the password</label>
+    <input type="password" name="password" id="password">
+    <div id="passwordMassage"></div>
+
+</div>
+
+
+<div>
+    <label>Enter Gender</label>
+    <input type="radio" name="gender" >Men
+    <input type="radio" name="gender" >Women
+    <input type="radio" name="gender" >Other
+    <span id="genderMsg"></span>
+</div>
+
+<br>
+<div>
+    <label>SELECT THE AREA</label>
+    <br>
+    
+    <select name="city">
+        <option value="0">##--SELECT--##</option>
+        <option>RAJAJINAGR</option>
+        <option>VIJAYNAGR</option>
+        <option>MALLESHWARAM</option>
+        <option>YESHWANTHPUR</option>
+        <option>WHITEFIELD</option>
+        <option>ELECTRONIC CITY</option>
+    </select>
+
+    <span id="cityMsg"></span>
+</div>
+<button type="button" onclick="registor()">Registor</button>
+
+    </form>
+
+</body>
+</html>
+
+
+
+<!-- how to create in Jscrift=={}
+    Storge to store ==data
+
+    convet objecte to string
+    
+    
+    ->

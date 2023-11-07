@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascrift</title>
+
+<script>
+
+    console.log("Introduction to Javascirft")
+var a
+console.log(a)
+
+var b=10
+console.log(b)     //10 number
+
+b=true  //true
+console.log(b)
+
+b='javascipt'
+console.log(b)//javascrift diplayed like that
+
+console.log(typeof(b))
+
+b=10.5
+console.log(b)//number
+b='c'
+
+console.log(b)
+console.log(typeof(b))//string 
+
+//dynamic
+//To dispaly the html page using javascift
+document.write("we are learning javascrift")
+document.write("<h1>we are learning javascrift</h1>")
+
+
+//print till h6
+//DataType in javascrift
+//number-int,flot,decimal
+//String=string,literal,character
+//boolean-true,false
+//undefined
+
+
+//how to declear a function in javascrift
+//keyword functionname(){
+
+//}
+console.log("calling function before decleration")
+function dispaly(){
+console.log("we are creating function")
+
+}
+
+//calling method name / function name
+
+
+console.log(dispaly)
+console.log(dispaly())
+
+
+
+function add(a,b){
+    console.log("calling add function")
+    console.log(a)
+    console.log(b)
+return a+b
+}
+
+console.log(add(10,20))
+
+function sub(a,b){
+    console.log("calling add function")
+    console.log(a)
+    console.log(b)
+return a-b
+}
+
+console.log(sub(10,20))
+
+
+function clickMe(){
+console.log("calling click function")
+}
+
+function doubleclickMe(){
+console.log("calling doubleclickMe ")
+}
+
+function ananymous(){
+console.log("calling ananymous function")
+var first= document.getElementById("firstName")
+console.log(first)
+console.log(first.value)
+
+}
+
+</script>
+
+
+</head>
+
+<body>
+
+    <button ondblclick="doubleclickMe()" onclick="clickMe()">click Me!!</button>
+
+<form>
+
+<label>Enter The First Name</label>
+<input type="text" name="firstName" id="firstName">
+<button type="button" ondblclick="ananymous()">cilck it</button>
+
+
+
+</form>
+
+</body>
+</html>
+
+<!-- var first
+consol.log(first)
+console.log(first.value)
+-->

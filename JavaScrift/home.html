@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <h1> Welcome <span id="user"></span>
+
+        
+
+<script>
+
+let username =sessionStorage.getItem("username")
+console.log(username)
+
+let namee=document.getElementById("user")
+namee.innerHTML=username
+
+alert("welcome to home page")
+confirm("Are you sure you have completed the task")
+prompt("what is your name")
+
+
+let arr =[1,2,3]
+console.log(arr)
+
+let arr1=[1,2,'java','javascript',true]
+console.log(arr1)
+
+
+let arr2=[]
+arr2.push(5)
+console.log(arr2)
+
+arr2.push(10)
+console.log(arr2)
+
+arr2.push(15)
+console.log(arr2)
+
+arr2.pop()
+console.log(arr2)
+
+var a=[4,5,6]
+var a=[]
+console.log(a)
+
+let arr3=[]
+
+arr3.unshift(60)
+console.log(arr3)
+
+arr3.unshift(90)
+console.log(arr3)
+
+arr3.unshift(120)
+console.log(arr3)
+
+arr3.shift()//removes element from begging of 
+console.log(arr3)
+
+//adding object to array
+
+
+let trees=[]
+let tree1={
+
+    "name":"mango",
+    "lifespan":20
+
+}
+
+
+
+trees.push(tree1)
+console.log(trees)
+let tree2={
+    "name":"Areca",
+"lifespan":60
+}
+
+trees.push(tree2)
+for(let i=0; i<trees.length;i++){
+console.log(trees[i])
+
+}
+
+for(let i=0; i<trees.length;i++){
+console.log(trees[i])
+
+}
+
+let x=1
+let y=1
+console.log(x==y)
+console.log(x===y)
+
+//data and value check ===
+// data chech ==
+let e=1
+let f="1"
+console.log(e==f)
+console.log(e===f)
+
+
+function sample(){
+console.log("calling sample")
+
+}
+sample()
+
+
+
+//function Express
+let result=function add(){
+
+    console.log("calling add")
+}
+
+console.log(result)
+console.log(result())
+
+//ananaymos function
+//function which doesnot have name
+
+let ananymous=function(){
+console.log("calling ananymous function")
+
+}
+ananymous()
+
+function dispalyDate(){
+ console.log("calling data function")
+let data =new Data()
+
+console.log(data)
+console.log(data.getFullYear())
+let dataMessage=document.getElementById("dataMessage")
+dataMessage.innerHTML=data
+}
+
+//how to craete elment from javascrift
+let element =document.createElement("p")
+console.log(element)
+
+let node =document.createTextNode("Paragraph creating dyanamic")
+
+console.log(node)
+element.appendChild(node)
+console.log(element)
+
+let dynamicElement=document.getElementById("dynamicElemente")
+dynamicElement.appendChild(element)
+
+</script>
+
+<button type="button"  name="submite">clickMe</button>
+<span id="data show "></span>
+</body>
+</html>
+

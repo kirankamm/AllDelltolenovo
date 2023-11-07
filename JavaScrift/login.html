@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        function login() {
+            console.log("calling log in function")
+
+            let Email = document.getElementById("email")
+            let Password = document.getElementById("password")
+            
+
+            if (Email.value == '') {
+                console.log(" Enter or fill the Email")
+                Email.innerHTML='please enter the EmailId'
+                Email.style.color='red'
+            }
+
+            if (password.value == '') {
+                console.log(" Enter or fill the Password")
+                Password.innerHTML='please enter the password'
+               Password.style.color='red'
+            }
+
+            let registorDataString = localStorage.getItem("save")
+            console.log(registorDataString)
+            console.log(registorDataString.Email)
+            console.log(registorDataString.Password)
+
+            let registorData = JSON.parse(registorDataString)
+            console.log(registorData)
+            console.log(registorData.Email)
+            console.log(registorData.Password)
+
+
+
+
+            let loginMessage=document.getElementById("loginMessage")
+            loginMessage.innerHTML=''
+            if (Email.value == registorData.Email && password.value) {
+                console.log("login Success")
+                loginMessage.innerHTML='Login Success'
+                loginMessage.style.color='green'
+                window.location.href='home.html'
+            sessionStorage.setItem("username",registorData.firstName)
+            console.log(sessionStorage.getItem("username"))
+
+
+
+            }else{
+
+
+                console.log("Invalid email or password")
+                loginMessage.innerHTML='Invalid email or Password'
+                loginMessage.style.color='red'
+            
+            
+            
+            }
+
+
+
+
+
+            }
+        
+//validate,
+
+
+    </script>
+
+
+
+
+</head>
+
+<body>
+
+
+    <form>
+    <div>
+            <label> Enter the Email</label>
+            <input type="email" name="email" id="email">
+    </div>
+
+
+        <div>
+            <label> Enter the password</label>
+            <input type="password" name="password" id="password">
+        </div>
+
+
+        <button type="button" onclick="login()">Click It</button>
+        <span id="loginMessage"></span>
+    </form>
+
+
+    
+</body>
+
+</html>
+
+
+
+<!-- Array==[]
+
+
+
+
+
+-->

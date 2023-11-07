@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>addsubmuldiv</title>
+
+    <script>
+        
+           function add(){
+            console.log("inside add function")
+            var num1 = document.getElementById("num1")
+            console.log(num1)
+            console.log(num1.value)
+
+
+
+
+            var num2 = document.getElementById("num2")
+            console.log(num2)
+            console.log(num2.value)
+
+
+
+
+            //console.log(num1.value + num2.value)
+
+
+            var result = parseInt(num1.value) + parseInt(num2.value)
+            console.log(result)
+
+            var msg1 = document.getElementById("message")
+            msg1.innerHTML = num1.value + " + " + num2.value + " = " + result
+            msg1.style.color = "blue"
+            msg1.style.textDecoration = "underline"
+
+           }
+
+           function substract(){
+            console.log("inside substract function")
+            var num1 = document.getElementById("num1")
+            console.log(num1)
+            console.log(num1.value)
+
+            var num2 = document.getElementById("num2")
+            console.log(num2)
+            console.log(num2.value)
+
+            //console.log(num1.value - num2.value)
+            var res = parseInt(num1.value) - parseInt(num2.value)
+            console.log(res)
+
+            var msg2 = document.getElementById("messagee")
+            msg2.innerHTML = num1.value + " - " + num2.value + " = " + res
+            msg2.style.color = "red"
+            msg2.style.textDecoration = "underline"
+
+           }
+
+           function multiply(){
+            console.log("inside multiply function")
+            var num1 = document.getElementById("num1")
+            console.log(num1)
+            console.log(num1.value)
+
+            var num2 = document.getElementById("num2")
+            console.log(num2)
+            console.log(num2.value)
+
+           // console.log(num1.value * num2.value)
+            var resu = parseInt(num1.value) * parseInt(num2.value)
+            console.log(resu)
+
+            var msg3 = document.getElementById("mes")
+            msg3.innerHTML = num1.value + " * " + num2.value + " = " + resu
+            msg3.style.color = "green"
+            msg3.style.textDecoration = "underline"
+            
+           }
+
+           function divide(){
+            console.log("inside divide function")
+            var num1 = document.getElementById("num1")
+            console.log(num1)
+            console.log(num1.value)
+
+            var num2 = document.getElementById("num2")
+            console.log(num2)
+            console.log(num2.value)
+
+            //console.log(num1.value - num2.value)
+            var r = parseInt(num1.value) / parseInt(num2.value)
+            console.log(r)
+
+            var msg4 = document.getElementById("mm")
+            msg4.innerHTML = num1.value + " / " + num2.value + " = " + r
+            msg4.style.textDecoration = "underline"
+
+           }
+           
+        function doubleClick(){
+            console.log("doubleClick function...............")
+        }
+        console.log(doubleClick())
+
+        function mouseOver(){
+            console.log("mouseOver function.................")
+        }
+        console.log(mouseOver())
+
+    </script>
+</head>
+
+
+
+
+<body>
+
+
+    <form>
+
+        <div>
+
+        <label>ENTER NUMBER 1</label>
+        <input type="number" id="num1" name="num1">
+        
+        </div>
+
+        <br>
+        
+        <div>
+
+            <label>ENTER NUMBER 2</label>
+            <input type="number" id="num2" name="num2">
+            </div>
+
+            <br>
+
+            <button type="button" ondblclick="doubleClick()" onmouseover="mouseOver()" onclick="add()">Add</button>
+            <span id="message"></span>
+
+            <br>
+            <br>
+            <button type="button" ondblclick="doubleClick()" onmouseover="mouseOver()" onclick="substract()">Substract</button>
+            <span id="messagee"></span>
+<br>
+
+
+            <br>
+            <button type="button" ondblclick="doubleClick()" onmouseover="mouseOver()" onclick="multiply()">Multiply</button>
+            <span id="mes"></span>
+
+            <br>
+            <br>
+            <button type="button" ondblclick="doubleClick()" onmouseover="mouseOver()" onclick="divide()">Divide</button>
+            <span id="mm"></span>
+
+
+    </form>
+</body>
+</html>
+
+
+<!--validation
+
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

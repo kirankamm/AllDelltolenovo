@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string to int </title>
+
+
+<script>
+
+function add(){
+
+    console.log("Calling add function")
+var num1 =document.getElementById("num1")
+console.log(num1)
+console.log(num1.value)
+
+var num2 =document.getElementById("num2")
+console.log(num2)
+console.log(num1.value)
+
+console.log(num1.value+num2.value)
+
+console.log(num1+num2)
+
+console.log(num1.value+num2.value)
+
+var result=parseInt(num1.value)+parseInt(num2.value)
+
+
+var message=document.getElementById("message")
+message.innerHTML=result
+message.style.color="red"
+message.style.textDecoration='underline'
+
+}
+
+
+</script>
+
+
+</head>
+<body>
+   
+    <form>
+
+    <label> Enter The number1</label>
+<input  type="text"  name="number1" id="num1">
+
+
+
+<label> Enter The number2</label>
+<input  type="text"  name="number1" id="num2">
+<div>
+
+<button type="button" onclick="add()"> add</button>
+<span id="message"></span>
+</div>
+
+    </form>
+
+
+
+</body>
+</html>
