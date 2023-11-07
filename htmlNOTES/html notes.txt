@@ -1,0 +1,177 @@
+Registore,logIN,Home
+
+Css frameWork -BootStrap
+java scritf
+
+
+web pagess
+static web page,dyanamic web pagess
+
+Static web pagess--wikepedia
+
+HTML meance like =skeltone
+
+SKIN=CSS
+
+HEART,BARIN=JAVASCRIT
+DYANAMIC WEB PAGES=HTMAL,CSS,BOOTSTRIP,JAVASCRIFT
+
+HTML:MARKUP LANGUGE,IT IS CALLED PROGRAMMMING LANGUAGE
+HTMAL
+
+
+
+
+<HTML>= THIS IS START TAG
+HTML=ELEMENT
+
+<-- COMMITING  -->  == COMMITING IN HTML
+
+
+<!----EVERY CONTAENT WILL BE WRETTEN CODE WHICH WILL BE    ---->
+
+
+<!----EVERY CONTAENT WILL BE WRETTEN CODE WHICH WILL BE    ---->
+
+
+
+<DocTYAPE> ==Telling the html version
+
+<html>==main tag /root tag
+
+<iframe>==== to to display another page in current html page we can use iframe 
+example....youtube ,instagram,facebook video
+
+
+
+
+
+
+
+CSS
+
+<head>
+
+how many ways we can write in css
+
+1.intuduction 
+
+we write CSS using staly tag and  style tag style is written within head tag<style></style>
+
+
+
+
+
+<div><a class="container">
+      <img src="krishnnaa.jpg"> 
+      <img src="krishnnaa.jpg">
+      <img src="krishnnaa.jpg"></a></div>
+
+
+Inline css
+we write inline css within the tag using style attribute
+
+
+web page needs tp be responsive 
+
+
+
+
+(((JavaScritf)))
+
+console.log("Intruduction to java Scrifet")
+
+
+=HTML Tags are building blocks of HTML Page.
+=HTML Elements are components that are used in HTML Page.
+
+
+*Attribute Exam
+
+=Date
+=Min
+=max
+=MinLength
+=MaxLength
+=label
+=alt
+=href
+=
+
+
+*block-level
+the width of its container and will always start on a new line.
+Elements that are block-level by default: <div>, <img>, <section>, <form>, <nav>
+
+
+inline
+
+Inline elements are drawn where they are defined and only take up space that is 
+absolutely needed. The easiest way to understand how they work is to look at how text
+ flows on a page.
+
+Examples of elements that are inline by default: <span>, <b>, <strong>, <a>, <input>.
+
+
+Q5. When are comments used in HTML?
+To understand the code easily, you can add code comments to your HTML document.
+
+= These are not displayed in the browser, but they help you in leaving notes for yourself 
+and other developers as to what a section of HTML is for.
+
+= The start of the comment is denoted by <!– and the end is marked by — >.
+ 
+=Anything in the middle will be completely ignored, even if it contains valid HTML.
+
+
+* What is hyperlink in HTML?
+The <a> tag defines a hyperlink, which is used to link from one page to another. 
+
+Q11. What is an image map?
+=An image map is used for linking many different web pages using a single image. 
+=It is represented by <map> tag. 
+=You can define shapes in images that you want to include as part of an image mapping.
+
+
+Q12. Does a hyperlink only apply to text?
+
+=No, hyperlinks can be used both on texts and images. 
+=The HTML anchor tag defines a hyperlink that links one page to another page. 
+=The “href” attribute is the most important attribute of the HTML anchor tag.
+
+
+<header>: It is used to define a header for a document or a section.
+<nav>: This defines a container for navigation links
+<section>: It is used to define a section in a document
+<article>: This is used to define an independent, self-contained article
+<aside>: It is used to define content aside from the content
+<footer>: It is used to define a footer for a document or a section
+
+
+Q15. What is a marquee?
+=Marquee is used for the scrolling text on a web page.
+ =It scrolls the image or text up, down, left or right automatically. 
+ =You should put the text which you want to scroll within the <marquee>……</marquee> tag.
+
+
+Q26. What is the use of a span tag? Explain with example.
+The span tag is used for following things:
+
+For adding color on text
+To add background on text
+Highlight any color text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
