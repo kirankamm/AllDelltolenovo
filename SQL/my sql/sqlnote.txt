@@ -1,0 +1,10 @@
+
+
+drop cnstrn
+primery
+fogn key...childe table
+auto increment..primery key complusery
+
+task
+ADD CONSTR TO EXI
+

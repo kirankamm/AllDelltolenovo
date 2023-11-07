@@ -1,0 +1,15 @@
+CREATE DATABASE mountainsss;
+
+show databases;
+
+use mountainsss; 
+
+CREATE TABLE mountainsss(mountain_name varchar(50),country varchar(50),capital varchar(60),near_county varchar(40),
+mountain_heigth int,roll_no int,top_no int);
+
+SELECT *FROM mountainsss;
+
+INSERT INTO mountainsss VALUES ('K2','china','sikiyang','nepal',27940,1,1);       
+INSERT INTO mountainsss VALUES ('kangchenjunga','nepal','sikiyang','india',27838,2,2);       
+INSERT INTO mountainsss VALUES ('lhotse','china','himachalyas','nepal',226864,3,3);       
+INSERT INTO mountainsss VALUES ('makul','nepal','china','himachal',26734,4,4); 

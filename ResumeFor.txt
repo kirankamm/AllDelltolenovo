@@ -1,0 +1,24 @@
+,ENGINEERS COMPUTER ACADEMY In Belagav.
+
+
+
+X-workZ Software Training Institute.
+
+
+filed level Bussiness 
+
+
+blood
+job appli
+Schoolarship
+driving licence
+Revaluation
+
+personName
+Group
+Age
+Address
+Weight
+ContacteNo
+
+7Dependency

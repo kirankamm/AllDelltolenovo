@@ -1,0 +1,159 @@
+jdbc-kshm-management-system
+
+com.xworkz.preprstmt.app
+
+
+
+
+
+
+ <properties>
+		<mysql.version>8.0.32</mysql.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.version}</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.26</version>
+    <scope>provided</scope>
+</dependency>
+
+	</dependencies>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <properties>
+        <mysql.version>8.0.32</mysql.version>
+        <lambok.version>1.18.26</lambok.version>
+        <validation.version>2.16.4.Final</validation.version>
+  </properties>
+  
+  
+  
+  
+    <dependencies>
+    
+  <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+<dependency>
+    <groupId>com.mysql</groupId>
+    <artifactId>mysql-connector-j</artifactId>
+    <version>${mysql.version}</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>${lambok.version}</version>
+    <scope>provided</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-core -->
+
+<dependency>
+    <groupId>io.quarkus</groupId>
+    <artifactId>quarkus-core</artifactId>
+    <version>${validation.version}</version>
+</dependency>
+
+</dependencies>
+
+
+
+
+<!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-hibernate-validator -->
+<dependency>
+    <groupId>io.quarkus</groupId>
+    <artifactId>quarkus-hibernate-validator</artifactId>
+    <version>1.13.7.Final</version>
+</dependency>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+  <properties>
+        <mysql.version>8.0.32</mysql.version>
+        <lambok.version>1.18.26</lambok.version>
+        <validation.version>1.13.7.Final</validation.version>
+  </properties>
+  
+  
+  
+    <dependencies>
+    
+  <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+<dependency>
+    <groupId>com.mysql</groupId>
+    <artifactId>mysql-connector-j</artifactId>
+    <version>${mysql.version}</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>${lambok.version}</version>
+    <scope>provided</scope>
+</dependency>
+
+
+
+<!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-hibernate-validator -->
+<dependency>
+    <groupId>io.quarkus</groupId>
+    <artifactId>quarkus-hibernate-validator</artifactId>
+    <version>${validation.version}</version>
+</dependency>
+
+</dependencies>
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------

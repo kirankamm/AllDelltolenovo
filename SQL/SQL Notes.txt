@@ -1,0 +1,47 @@
+sql......commuct with database
+
+structure quary language
+
+how database store...
+
+ddl.....create data n base stretre
+
+create ...crt table ,crt databse
+
+syntax create data base x
+
+
+
+
+mtd overriding same method but immpimention differernt
+mtd overloading same obective but diiferent parameter
+
+
+method=()
+
+
+ 
+  methods belove 
+clone ....copy
+ String to String 
+ biilean....equal(objecte obj)
+ int hashCode()
+ String tostring
+ objct clonect
+ void finailse
+ notify
+ notityAll
+ wait
+ wait(long parameter)
+ wait (long parameter,int nanos)
+ 
+
+
+
+
+
+
+
+
+
+

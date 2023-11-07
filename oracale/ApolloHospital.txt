@@ -1,0 +1,37 @@
+package com.xworkz.hospital.app.hospital;
+
+public class ApolloHospital extends objecte {
+
+
+			boolean isApplicationFormFilled = true;
+			  
+			public  ApolloHospital(int size) 
+			{
+			 patient= new Patient[size];
+			 
+			 
+		System.out.println("Apollo Hospital Object is created");
+			
+		 }
+			public ApolloHospital() {
+				// TODO Auto-generated constructor stub
+			}
+			
+		//method overriding
+		@Override
+			public boolean addPatient(Patient patient) 
+			{
+		System.out.println("Inside addPatient of ApolloHospitals");
+				if(isApplicationFormFilled == true) 
+				{
+		System.out.println("Form the Filling comletely can add the patient now ...hurry");
+				boolean isAdmitted;
+				return isAdmitted;
+				}
+				return false;
+				
+			}
+
+	}	
+	
+	
